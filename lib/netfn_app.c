@@ -303,6 +303,8 @@ mc_get_device_id(struct dummy_rq *req, struct dummy_rs *rsp)
 	data[1] = 0x80;
 	data[2] = 0;
 	data[5] = 0xff;
+        data[6] = 0xcc;
+        data[7] = 0x9b;
 	/* TODO */
 	/* data[0] - Device ID
 	 * data[1] - Device Revision
